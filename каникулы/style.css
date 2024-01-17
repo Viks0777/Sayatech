@@ -142,13 +142,14 @@ img {
 
 .showcase-form {
   position: relative;
-  top: 60px;
-  height: 350px;
-  width: 400px;
-  padding: 40px;
+  top: 40px; /* Изменен отступ сверху */
+  height: 300px; /* Изменена высота */
+  width: 350px; /* Изменена ширина */
+  padding: 30px; /* Изменены отступы внутри блока */
   justify-self: flex-end;
-  animation:  slideInFromRight 1s ease-in;
+  animation: slideInFromRight 1s ease-in;
 }
+
 
 .showcase1 .form-control {
   margin: 30px 0;

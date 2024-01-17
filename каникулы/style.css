@@ -143,11 +143,12 @@ img {
 .showcase-form {
   position: relative;
   top: 40px; /* Изменен отступ сверху */
-  height: 300px; /* Изменена высота */
-  width: 350px; /* Изменена ширина */
+  height: 340px; /* Изменена высота */
+  width: 377px; /* Изменена ширина */
   padding: 30px; /* Изменены отступы внутри блока */
   justify-self: flex-end;
   animation: slideInFromRight 1s ease-in;
+  box-shadow: var(--shadow);
 }
 
 
@@ -223,7 +224,6 @@ input:focus {
   .showcase1::before,
   .showcase1::after {
     height: 50px; 
-    
   }
 
   .showcase-form {

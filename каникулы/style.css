@@ -81,6 +81,22 @@ img {
     border-bottom: 2px #fff solid;
 }
 
+@media (max-width:500px) {
+  .navbar {
+      height: 110px;
+  }
+
+  .navbar .flex {
+      flex-direction: column;
+  }
+
+  .navbar ul {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.2);
+  }
+
+}
+
 .showcase1 {
   height: 400px;
   background-color: var(--primary-color);

@@ -211,10 +211,10 @@ input:focus {
   }
 
   .showcase1 .container1 {
-    grid-template-columns: auto; 
-    overflow: visible;
-    
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Небольшое изменение в grid-template-columns */
+    overflow: hidden; /* Изменено значение overflow */
   }
+  
 
   .showcase1 h1 {
     font-size: 35px;

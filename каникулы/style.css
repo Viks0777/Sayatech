@@ -128,13 +128,14 @@ img {
 
 .text1 {
   background-color: #ffffff;
-  box-shadow: var(--text-color);
+  box-shadow: var(--dark-color); /* Изменен цвет тени */
   border-radius: 10px;
   color: var(--text-color);
   padding: 20px;
   margin: 10px;
   z-index: 10;
 }
+
 .showcase-text {
   animation:  slideInFromLeft 1s ease-in;
 }
